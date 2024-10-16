@@ -1,6 +1,5 @@
 export default {
     methods: {
-        //转义符换成普通字符
         escape2Html(str) {
             if (!str) return str;
             var arrEntities = {
@@ -10,24 +9,22 @@ export default {
                 'amp': '&',
                 'quot': '"'
             };
-            return str.replace(/&(lt|gt|nbsp|amp|quot);/ig, function(all, t) {
+            return str.replace(/&(lt|gt|nbsp|amp|quot);/ig, function (all, t) {
                 return arrEntities[t];
             });
         },
-        //普通字符转换成转义符
         html2Escape(sHtml) {
             if (!sHtml) return sHtml;
-            return sHtml.replace(/[<>&"]/g, function(c) {
+            return sHtml.replace(/[<>&"]/g, function (c) {
                 return {
                     '<': '&lt;',
                     '>': '&gt;',
                     '&': '&amp;',
                     '"': '&quot;'
-                } [c];
+                }[c];
             });
         },
-        //setData polyfill 勿删!!!   (用于转换后的uniapp的项目能直接使用this.setData()函数)
-        setData: function(obj, callback) {
+        setData: function (obj, callback) {
             let that = this;
             const handleData = (tepData, tepKey, afterKey) => {
                 var tepData2 = tepData;
@@ -43,10 +40,10 @@ export default {
                 });
                 return tepData2;
             };
-            const isFn = function(value) {
+            const isFn = function (value) {
                 return typeof value == 'function' || false;
             };
-            Object.keys(obj).forEach(function(key) {
+            Object.keys(obj).forEach(function (key) {
                 let val = obj[key];
                 key = key.replace(/\]/g, '').replace(/\[/g, '.');
                 let front, after;
