@@ -7,7 +7,7 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
-		}, 
+		},
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -23,7 +23,7 @@
 					}
 				}
 			}
-		}, 
+		},
 		{
 			"path": "pages/health/health",
 			"style": {
@@ -87,7 +87,6 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
-
 		},
 		{
 			"path": "pages/product_list/product_list",
@@ -113,7 +112,7 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
-		}, 
+		},
 		{
 			"path": "pages/message_center/message_center",
 			"style": {
@@ -121,7 +120,7 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
-		}, 
+		},
 		{
 			"path": "pages/goods_indent/goods_indent",
 			"style": {
@@ -153,7 +152,7 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
-		}, 
+		},
 		{
 			"path": "pages/my_wallet/my_wallet",
 			"style": {
@@ -201,7 +200,7 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
-		}, 
+		},
 		{
 			"path": "pages/privacy_policy/privacy_policy",
 			"style": {
@@ -209,26 +208,22 @@
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
-		}, 
-        {
-            "path" : "pages/customer_service/customer_service",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }  
-        },
+		},
 		{
-            "path" : "pages/h5/h5",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-				// "navigationStyle": "custom"
-            } 
-        }
-		
-    ],
+			"path": "pages/customer_service/customer_service",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/h5/h5",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
 	"subPackages": [],
 	"globalStyle": {
 		"navigationBarTitleText": "yunchuang",
@@ -247,7 +242,8 @@
 		"backgroundColor": "white",
 		"iconWidth": "36px",
 		"height": "62px",
-		"list": [{
+		"list": [
+			{
 				"pagePath": "pages/index/index",
 				"iconPath": "static/images/home.png",
 				"selectedIconPath": "static/images/home_active.png",
