@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "airwallex-payment-elements": "^1.9.0",
+    "html2canvas": "^1.4.1",
+    "jweixin-module": "^1.6.0",
+    "vue-lazyload": "^3.0.0-rc.2",
+    "webpack": "^5.77.0",
+    "webpack-dev-server": "^2.9.6"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^5.0.1",
+    "js-md5": "^0.7.3"
+  }
+}

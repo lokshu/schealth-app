@@ -1,0 +1,533 @@
+/**
+ * 公共类样式
+ */
+.margin-0 {
+	margin: 0 !important;
+}
+
+.margin-xs {
+	margin: 5rpx;
+}
+
+.margin-sm {
+	margin: 10rpx;
+}
+
+.margin,
+.margin-default {
+	margin: 15rpx;
+}
+
+.margin-lg {
+	margin: 20rpx;
+}
+
+.margin-xl {
+	margin: 25rpx;
+}
+
+.margin-xxl {
+	margin: 30rpx;
+}
+
+.margin-xxxl {
+	margin: 40rpx;
+}
+
+.margin-top-xs {
+	margin-top: 5rpx;
+}
+
+.margin-top-sm {
+	margin-top: 10rpx;
+}
+
+.margin-top,
+.margin-top-default {
+	margin-top: 15rpx;
+}
+
+.margin-top-lg {
+	margin-top: 20rpx;
+}
+
+.margin-top-xl {
+	margin-top: 25rpx;
+}
+
+.margin-top-xxl {
+	margin-top: 30rpx;
+}
+
+.margin-top-xxxl {
+	margin-top: 40rpx;
+}
+
+.margin-right-xs {
+	margin-right: 5rpx;
+}
+
+.margin-right-sm {
+	margin-right: 10rpx;
+}
+
+.margin-right,
+.margin-right-default {
+	margin-right: 15rpx;
+}
+
+.margin-right-lg {
+	margin-right: 20rpx;
+}
+
+.margin-right-xl {
+	margin-right: 25rpx;
+}
+
+.margin-right-xxl {
+	margin-right: 30rpx;
+}
+
+.margin-right-xxxl {
+	margin-right: 40rpx;
+}
+
+.margin-left-xs {
+	margin-left: 5rpx;
+}
+
+.margin-left-sm {
+	margin-left: 10rpx;
+}
+
+.margin-left,
+.margin-left-default {
+	margin-left: 15rpx;
+}
+
+.margin-left-lg {
+	margin-left: 20rpx;
+}
+
+.margin-left-xl {
+	margin-left: 25rpx;
+}
+
+.margin-left-xxl {
+	margin-left: 30rpx;
+}
+
+.margin-left-xxxl {
+	margin-left: 40rpx;
+}
+
+.margin-bottom-xs {
+	margin-bottom: 5rpx;
+}
+
+.margin-bottom-sm {
+	margin-bottom: 10rpx;
+}
+
+.margin-bottom,
+.margin-bottom-default {
+	margin-bottom: 15rpx;
+}
+
+.margin-bottom-lg {
+	margin-bottom: 20rpx;
+}
+
+.margin-bottom-xl {
+	margin-bottom: 25rpx;
+}
+
+.margin-bottom-xxl {
+	margin-bottom: 30rpx;
+}
+
+.margin-bottom-xxxl {
+	margin-bottom: 40rpx;
+}
+
+.padding-0 {
+	padding: 0 !important;
+}
+
+.padding-xs {
+	padding: 5rpx;
+}
+
+.padding-sm {
+	padding: 10rpx;
+}
+
+.padding,
+.padding-default {
+	padding: 15rpx;
+}
+
+.padding-lg {
+	padding: 20rpx;
+}
+
+.padding-xl {
+	padding: 25rpx;
+}
+
+.padding-xxl {
+	padding: 30rpx;
+}
+
+.padding-xxxl {
+	padding: 40rpx;
+}
+
+.padding-top-xs {
+	padding-top: 5rpx;
+}
+
+.padding-top-sm {
+	padding-top: 10rpx;
+}
+
+.padding-top,
+.padding-top-default {
+	padding-top: 15rpx;
+}
+
+.padding-top-lg {
+	padding-top: 20rpx;
+}
+
+.padding-top-xl {
+	padding-top: 25rpx;
+}
+
+.padding-top-xxl {
+	padding-top: 30rpx;
+}
+
+.padding-top-xxxl {
+	padding-top: 40rpx;
+}
+
+.padding-right-xs {
+	padding-right: 5rpx;
+}
+
+.padding-right-sm {
+	padding-right: 10rpx;
+}
+
+.padding-right,
+.padding-right-default {
+	padding-right: 15rpx;
+}
+
+.padding-right-lg {
+	padding-right: 20rpx;
+}
+
+.padding-right-xl {
+	padding-right: 25rpx;
+}
+
+.padding-right-xxl {
+	padding-right: 30rpx;
+}
+
+.padding-right-xxxl {
+	padding-right: 40rpx;
+}
+
+.padding-left-xs {
+	padding-left: 5rpx;
+}
+
+.padding-left-sm {
+	padding-left: 10rpx;
+}
+
+.padding-left,
+.padding-left-default {
+	padding-left: 15rpx;
+}
+
+.padding-left-lg {
+	padding-left: 20rpx;
+}
+
+.padding-left-xl {
+	padding-left: 25rpx;
+}
+
+.padding-left-xxl {
+	padding-left: 30rpx;
+}
+
+.padding-left-xxxl {
+	padding-left: 40rpx;
+}
+
+.padding-bottom-xs {
+	padding-bottom: 5rpx;
+}
+
+.padding-bottom-sm {
+	padding-bottom: 10rpx;
+}
+
+.padding-bottom,
+.padding-bottom-default {
+	padding-bottom: 15rpx;
+}
+
+.padding-bottom-lg {
+	padding-bottom: 20rpx;
+}
+
+.padding-bottom-xl {
+	padding-bottom: 25rpx;
+}
+
+.padding-bottom-xxl {
+	padding-bottom: 30rpx;
+}
+
+.padding-bottom-xxls {
+	padding-bottom: 30rpx;
+	padding-right: 30rpx;
+}
+
+.padding-bottom-xxxl {
+	padding-bottom: 40rpx;
+}
+
+/**
+ * 字体大小
+ */
+.text-size-xs {
+	font-size: 22rpx !important;
+}
+
+.text-size-sm {
+	font-size: 26rpx !important;
+}
+
+.text-size-md {
+	font-size: 28rpx !important;
+}
+
+.text-size,
+.text-size-default {
+	font-size: 32rpx !important;
+}
+
+.text-size-lg {
+	font-size: 36rpx !important;
+}
+
+.text-size-xl {
+	font-size: 42rpx !important;
+}
+
+.text-size-xxl {
+	font-size: 62rpx !important;
+}
+
+.text-size-xxxl {
+	font-size: 82rpx !important;
+}
+
+/* 弹性盒 */
+.flex {
+	display: flex;
+}
+
+.flex-shrink {
+	flex-shrink: 0;
+}
+
+.flex-direction {
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.align-baseline {
+	align-items: baseline;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-stretch {
+	align-items: stretch;
+}
+
+.self-start {
+	align-self: flex-start;
+}
+
+.self-center {
+	align-self: center;
+}
+
+.self-end {
+	align-self: flex-end;
+}
+
+.self-stretch {
+	align-self: stretch;
+}
+
+.self-baseline {
+	align-self: baseline;
+}
+
+.align-stretch {
+	align-items: stretch;
+}
+
+.justify-start {
+	justify-content: flex-start;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+/* 字体 */
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.fc-fff {
+	color: #fff;
+}
+
+.fc-000 {
+	color: #000;
+}
+
+.fc-8E8E8E {
+	color: #8E8E8E;
+}
+
+.bg-view {
+	background: #fff;
+}
+
+.position-re {
+	position: relative;
+}
+
+.position-ab {
+	position: absolute;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.font-900 {
+	font-weight: 900;
+}
+
+.font-600 {
+	font-weight: 600;
+}
+
+.font-normal {
+	font-weight: normal;
+}
+
+.fs-22 {
+	font-size: 22rpx !important;
+}
+
+.fc-24 {
+	font-size: 24rpx !important;
+}
+
+.fc-20 {
+	font-size: 20rpx !important;
+}
+
+.fc-FD4841 {
+	color: #FD4841 !important;
+}
+
+.fc-9F9F9F {
+	color: #9F9F9F !important;
+}
+
+.bg-FD4841 {
+	background: #FD4841 !important;
+}
+
+.fc-F4504E {
+	/* color: #F4504E !important; */
+	color: #e11e1b !important;
+}
+
+.bg-FFBAC9 {
+	background: linear-gradient(to bottom, #FFBAC9, #FF0036) !important;
+}
+
+.bg-6D14B3 {
+	background: #6D14B3 !important;
+}
+
+.bg-8550B9 {
+	background: #8550B9 !important;
+}
+
+
+.fc-6D14B3 {
+	color: #6D14B3 !important;
+}
+
+.fc-8550B9 {
+	color: #8550B9 !important;
+}
+
+.fc-2296D6 {
+	color: #2296D6 !important;
+}
+.fc-130F26 {
+	color: #130F26 !important;
+}
+

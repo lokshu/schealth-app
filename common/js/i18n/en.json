@@ -1,0 +1,12 @@
+{
+	"TABBAR": {
+		"HOME": "Home",
+		"CLASSIFY": "Classify",
+		"CART": "Cart",
+		"USER": "My"
+	},
+	"LANGUAGE": "Language",
+	"loading": "Loading...",
+	"hot_commodities": "Hot commodities",
+	"receive_coupons": "Receive coupons"
+}

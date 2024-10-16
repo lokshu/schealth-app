@@ -1,0 +1,220 @@
+/**
+ * 顶部内容
+ */
+.top-content {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #FFFFFF;
+	/* background: url("@/static/image2/register/background.png") no-repeat; */
+	background-size: 100% 100%;
+}
+
+.back {
+	width: 70rpx;
+	top: 32rpx;
+	left: 30rpx;
+}
+
+.language {
+	top: 32rpx;
+	right: 30rpx;
+	width: 45rpx;
+}
+.content{min-height: 100vh;}
+.content-big-box{
+	display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  min-height: 100vh;
+}
+/* 头像 */
+.photos {
+	width: 220rpx;
+	margin: 0 auto 32rpx;
+	display: block;
+	border-radius: 30rpx;
+}
+
+.reg-tit {
+	font-size: 40rpx;
+	text-align: center;
+	font-family: 蘋方-繁-Semibold, 蘋方-繁;
+	font-weight: 600;
+	margin: 0 auto;
+	color: #6D14B3;
+}
+
+.inputs {
+	width: 644rpx;
+	margin: 64rpx auto 0;
+}
+.goRegister{width: 644rpx;margin: 64rpx auto ;}
+.goRegister navigator{display: inline-block;color: #6D14B3;}
+
+
+.inputs input {
+	width: 100%;
+	font-size: 32rpx;
+	height: 92rpx;
+	border-bottom: 2rpx solid #DBDBDB;
+}
+
+.input-hint {
+	line-height: 54rpx;
+	font-size: 24rpx;
+}
+
+.uni-page-body {
+	color: #1E1E1E;
+}
+
+.getyzm {
+	width: 644rpx;
+	height: 92rpx;
+	background: #6D14B3;
+	border-radius: 10rpx;
+	font-size: 30rpx;
+	font-weight: 500;
+	color: white;
+	line-height: 92rpx;
+}
+
+/* 忘记密码 */
+.forget {
+	top: 192rpx;
+	right: 0;
+	line-height: 92rpx;
+	font-size: 28rpx;
+	font-family: 蘋方-繁-Medium, 蘋方-繁;
+	font-weight: 500;
+	color: #6D14B3;
+
+
+
+}
+
+.pass-reg {
+	/* width: 112rpx; */
+	font-size: 28rpx;
+	font-family: 蘋方-繁-標準體, 蘋方-繁;
+	color: #6D14B3;
+	line-height: 32rpx;
+	margin: 36rpx auto;
+	text-align: center;
+}
+
+.xian {
+	width: 190rpx;
+	height: 2rpx;
+	background: linear-gradient(90deg, #FFFFFF 0%, #CBCBCB 53%, #FFFFFF 100%);
+	border-radius: 0rpx 0rpx 0rpx 0rpx;
+
+}
+
+.else-reg {
+	width: 560rpx;
+	height: 40rpx;
+	margin: 102rpx auto 0;
+}
+
+.else-reg-true {
+	width: 388rpx;
+	margin: 46rpx auto 84rpx;
+
+}
+
+.select {
+	width: 36rpx;
+}
+
+/* 协议 */
+.xieyi-w {
+	width: 648rpx;
+	margin: 0 auto 0;
+	padding-bottom: 156rpx;
+}
+
+.xieyi {
+	width: 600rpx;
+	
+	font-size: 26rpx;
+	font-family: 蘋方-繁-標準體, 蘋方-繁;
+	color: #9A9A9A;
+	line-height: 32rpx;
+}
+.xieyi text{color: #6D14B3;}
+
+
+/* 密码登录 */
+.other-reg {
+	width: 628rpx;
+	margin: 32rpx auto 0;
+}
+
+
+.inputs-true {
+	padding-left: 100rpx;
+	box-sizing: border-box;
+}
+
+/* 图标 */
+.ico1 {
+	width: 40rpx;
+	top: 26rpx;
+	left: 20rpx;
+}
+
+.ico2 {
+	width: 36rpx;
+	top: 222rpx;
+	left: 20rpx;
+}
+
+.disabled {
+	background: #6D14B3;
+}
+
+.undisabled {
+	background: #6D14B3;
+}
+
+/* 地区 */
+.regions-all {
+	width: 216rpx;
+	font-size: 24rpx;
+	top: 15rpx;
+	left: 0rpx;
+}
+
+.regions {
+	width: 152rpx;
+	height: 62rpx;
+	background: #F6F6F6;
+	border-radius: 8rpx 8rpx 8rpx 8rpx;
+	color: #1E1E1E;
+	line-height: 62rpx;
+}
+
+.region-option {
+	width: 136rpx;
+	height: 102rpx;
+	background: #F6F6F6;
+	border-radius: 8rpx 8rpx 8rpx 8rpx;
+	color: #7E7E7E;
+	line-height: 62rpx;
+	top: 74rpx;
+	left: 0rpx;
+	text-align: center;
+}
+
+.region-option>view {
+	width: 100%;
+	line-height: 50rpx;
+}
+
+.select_op {
+	color: #F4504E;
+}
+
+.vercode-input .verCode1{width: 100px;height: 25px;position: absolute;top:10px;right: 0;}
+.vercode-input .verCode1 div{width: 100px;height: 25px;}

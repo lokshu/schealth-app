@@ -1,0 +1,105 @@
+.selected-goods{
+	background-color: #F3EAFF;
+	margin: 30rpx;
+	border-radius: 16rpx;
+}
+.goods-name{
+	font-size: 35rpx;
+	color: #130F26;
+	font-weight: bold;
+}
+.goods-price{
+	color: #6D14B3;
+	font-size: 40rpx
+}
+.goods-buy-number .number-content{
+	width: auto;
+	background-color: #D5AAF8;
+	color: #6D14B3;
+	margin:10rpx 0;
+}
+.goods-buy-number .number-content .number-submit{
+	border-radius: 10rpx;
+	background-color: #D5AAF8;
+	font-size: 40rpx;
+}
+.goods-buy-number .number-content .number-submit,
+.goods-buy-number .number-content uni-input {
+    padding: 0;
+    vertical-align: middle;
+    height: 30px;
+    line-height: 30px;
+	color: #6D14B3;
+}
+.goods-buy-number .number-content .number-submit{
+    width: 30px;
+    font-weight: 700;
+}
+.goods-buy-number .number-content uni-input{
+    width: 50px;
+    background: transparent;
+    border-radius: 0;
+	color: #000;
+}
+.coupon-part .input-btn{position: relative;}
+.coupon-part .input-btn input{
+	font-size: 32rpx;
+	background-color: #ECE2FF;
+	border-radius: 10rpx;
+	padding:0 70rpx 0 20rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.coupon-part .input-btn uni-button{
+	position: absolute;
+	right: 0;
+	width: 70rpx;
+	height: 70rpx;
+	top: 0;
+	border-radius: 10rpx;
+	background-color: #8550B9;
+	color: #fff;
+}
+.coupon-part .title2,
+.project-total{font-weight: bold;font-size: 30rpx;color: #6D14B3;}
+.jifen-youhui{font-weight: bold;font-size: 30rpx;color: #2296D6;margin: 10rpx 0;}
+.all-total{font-weight: bold;font-size: 32rpx;color: #6D14B3;}
+.all_price {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background: #FFFFFF;
+	box-shadow: 0rpx -6rpx 12rpx 2rpx rgba(0, 0, 0, 0.03);
+	/* border-radius: 32rpx 32rpx 0rpx 0rpx; */
+}
+.pay-btn {
+	height: 80rpx;
+	background: #8550B9;
+	border-radius: 15rpx;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	line-height: 80rpx;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.point-pop .title{font-weight: bold;font-size: 32rpx;}
+.point-pop input{
+	font-size: 32rpx;
+	background-color: #ECE2FF;
+	border-radius: 10rpx;
+	padding:0 20rpx 0 20rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	margin-bottom: 20rpx;
+	color: #8550B9;
+	text-align: left;
+}
+.point-pop uni-button{
+	height: 70rpx;
+	border-radius: 10rpx;
+	background-color: #8550B9;
+	color: #fff;
+}

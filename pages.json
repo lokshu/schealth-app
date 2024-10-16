@@ -1,0 +1,276 @@
+{
+	"pages": [
+		{
+			"path": "pages/welcome/welcome",
+			"style": {
+				"navigationBarTitleText": "歡迎",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主頁",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#ff3333",
+						"style": "default",
+						"height": "30%"
+					}
+				}
+			}
+		}, 
+		{
+			"path": "pages/health/health",
+			"style": {
+				"navigationBarTitleText": "我的健康",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/appointment/appointment",
+			"style": {
+				"navigationBarTitleText": "我的預約",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的賬號",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/banner_detail",
+			"style": {
+				"navigationBarTitleText": "Banner Detail",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/special_detail/special_detail",
+			"style": {
+				"navigationBarTitleText": "Special Detail",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "註冊",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/product_list/product_list",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarHidden": true
+			}
+		},
+		{
+			"path": "pages/goods-detail/goods-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "購物車",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/message_center/message_center",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/goods_indent/goods_indent",
+			"style": {
+				"navigationBarTitleText": "訂單",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/payment/payment",
+			"style": {
+				"navigationBarTitleText": "確認我的訂單",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/payment_successful/payment_successful",
+			"style": {
+				"navigationBarTitleText": "付款成功",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/language/language",
+			"style": {
+				"navigationBarTitleText": "切换语言",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/my_wallet/my_wallet",
+			"style": {
+				"navigationBarTitleText": "我的錢包",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my_points/my_points",
+			"style": {
+				"navigationBarTitleText": "我的積分",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my_coupons/my_coupons",
+			"style": {
+				"navigationBarTitleText": "我的禮券",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my_order/my_order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my_order/order_detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/terms_of_service/terms_of_service",
+			"style": {
+				"navigationBarTitleText": "使用者條款",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/privacy_policy/privacy_policy",
+			"style": {
+				"navigationBarTitleText": "隱私權政策",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, 
+        {
+            "path" : "pages/customer_service/customer_service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }  
+        },
+		{
+            "path" : "pages/h5/h5",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+            } 
+        }
+		
+    ],
+	"subPackages": [],
+	"globalStyle": {
+		"navigationBarTitleText": "yunchuang",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#f5f5f5",
+		"backgroundColorBottom": "#f5f5f5",
+		"maxWidth": "800",
+		"softinputMode": "adjustResize"
+	},
+	"tabBar": {
+		"color": "#BFBFBF",
+		"borderStyle": "none",
+		"fontSize": "12px",
+		"selectedColor": "#6D14B3",
+		"backgroundColor": "white",
+		"iconWidth": "36px",
+		"height": "62px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home_active.png",
+				"text": "主頁"
+			},
+			{
+				"pagePath": "pages/health/health",
+				"iconPath": "static/images/health.png",
+				"selectedIconPath": "static/images/health_active.png",
+				"text": "我的健康"
+			},
+			{
+				"pagePath": "pages/appointment/appointment",
+				"iconPath": "static/images/appointment.png",
+				"selectedIconPath": "static/images/appointment_active.png",
+				"text": "我的預約"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user_active.png",
+				"text": "我的賬號"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"TABBAR": {
+		"HOME": "主頁",
+		"HEALTH": "我的健康",
+		"CLASSIFY": "我的健康",
+		"APPOINTMENT": "我的預約",
+		"CART": "購物車",
+		"USER": "我的賬號"
+	},
+	"LANGUAGE": "修改語言",
+	"loading": "加載中...",
+	"hot_commodities": "熱賣商品",
+	"receive_coupons": "領券中心"
+}

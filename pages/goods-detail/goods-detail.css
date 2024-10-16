@@ -1,0 +1,83 @@
+.page {
+	padding-bottom: 100rpx;
+}
+.btm-position{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+.goods-buy-nav{
+    height: 69px;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 0 #d2d2d2;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin: auto;
+}
+.goods-buy-nav .bus-items, .goods-buy-nav .btn-items{
+    height: 50px;
+}
+.bg-main-pair {
+	font-weight: 600;
+	color: #6D14B3 !important;
+	background: #F7F3FF !important;
+}
+.bg-main {
+	font-weight: 600;
+	background: #6D14B3 !important;
+}
+.goods_name{
+	color: #130F26;
+	font-size: 45rpx;
+	font-weight: bold;
+}
+.title1{
+	font-size: 35rpx;
+	color: #8550B9;
+	background-color: #F3EAFF;
+	margin: 30rpx 0;
+	font-weight: bold;
+}
+.price{
+	color: #6D14B3;
+	font-size: 40rpx
+}
+.goods-buy-number .number-content{
+	width: auto;
+	background-color: #F3F3F3;
+}
+.goods-buy-number .number-content .number-submit{
+	border-radius: 10rpx;
+	background-color: #F3F3F3;
+	font-size: 50rpx;
+}
+.goods-buy-number .number-content .number-submit,
+.goods-buy-number .number-content uni-input {
+    padding: 0;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+	color: #000;
+}
+.goods-buy-number .number-content .number-submit{
+    width: 40px;
+    font-weight: 700;
+}
+.goods-buy-number .number-content uni-input{
+    width: 50px;
+    background: #fff;
+    border-radius: 0;
+}
+.desc ul li{
+	color: #475467;
+	font-size: 28rpx;
+	margin-bottom: 10rpx;
+}
+.location uni-view{
+	color: #000000;
+	font-size: 28rpx;
+}
+

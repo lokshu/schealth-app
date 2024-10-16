@@ -1,0 +1,12 @@
+{
+	"TABBAR": {
+		"HOME": "首页",
+		"CLASSIFY": "分类",
+		"CART": "购物车",
+		"USER": "我的"
+	},
+	"LANGUAGE": "修改语言",
+	"loading": "加载中...",
+	"hot_commodities": "热卖商品",
+	"receive_coupons": "领券中心"
+}
